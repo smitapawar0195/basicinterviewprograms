@@ -11,7 +11,7 @@ public class Print_Duplicate_Unique_Max_Remove_Str {
 				continue;
 			}
 
-			int count = 1;
+			int count = 1;	
 			for (int j = i + 1; j < t.length; j++) {
 				if (t[i].equals(t[j])) {
 					count++;
@@ -19,7 +19,7 @@ public class Print_Duplicate_Unique_Max_Remove_Str {
 				}
 			}
 			if (count == 1) {
-				System.out.println(t[i]);
+				System.out.print(t[i] + " ");
 			}
 		}
 
@@ -42,7 +42,7 @@ public class Print_Duplicate_Unique_Max_Remove_Str {
 				}
 			}
 			if (count >= 1) {
-				System.out.println(t[i]);
+				System.out.print(t[i] + " ");
 			}
 		}
 
@@ -65,7 +65,7 @@ public class Print_Duplicate_Unique_Max_Remove_Str {
 				}
 			}
 			if (count > 1) {
-				System.out.println(t[i]);
+				System.out.print(t[i] + " ");
 			}
 		}
 
