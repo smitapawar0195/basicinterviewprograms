@@ -30,6 +30,7 @@ public class AddOfDigitFromStr {
 			}
 		}
 		System.out.println(sum);
+		System.out.println("hii");
 
 	}
 
